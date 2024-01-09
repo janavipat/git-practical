@@ -20,3 +20,13 @@ document.getElementById("demo").innerHTML = txt;
 
 </body>
 </html>
+let text = "";
+for (let i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
