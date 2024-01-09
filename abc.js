@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <body>
@@ -8,15 +7,17 @@
 <p id="demo"></p>
 
 <script>
-const number = parseInt(prompt("Enter a positive number: "));
-let isPrime = true;
+let text = "";
 
-// check if number is equal to 1
-if (number === 1) {
-    console.log("1 is neither prime nor composite number.");
+for (let i = 0; i < 5; i++) {
+  text += "The number is " + i + "<br>";
 }
 
-// check if number is greater than 
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
 else if (number > 1) {
 
     // looping through 2 to number-1
@@ -42,4 +43,3 @@ else {
 
 </body>
 </html>
-
