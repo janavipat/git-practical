@@ -1,14 +1,20 @@
-<<<<<<< HEAD
-1
-2
-3
-4
-5
-6
-7
-8
-=======
-console.log("agrt");
-console.log("hi");
-console.log("hello");
->>>>>>> new
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript For Loop</h2>
+
+<p id="demo"></p>
+
+<script>
+let text = "";
+
+for (let i = 0; i < 5; i++) {
+  text += "The number is " + i + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
