@@ -9,7 +9,7 @@ if (number === 1) {
     console.log("1 is neither prime nor composite number.");
 }
 
-// check if number is greater than 1
+// check if number is greater than 
 else if (number > 1) {
 
     // looping through 2 to number-1
