@@ -2,19 +2,19 @@
 <html>
 <body>
 
-<h1>JavaScript Functions</h1>
 
-<p>Call a function which performs a calculation and returns the result:</p>
 
 <p id="demo"></p>
 
 <script>
-let x = myFunction(4, 3);
-document.getElementById("demo").innerHTML = x;
+const person = {fname:"John", lname:"Doe", age:25}; 
 
-function myFunction(a, b) {
-  return a * b;
+let txt = "";
+for (let x in person) {
+  txt += person[x] + " ";
 }
+
+document.getElementById("demo").innerHTML = txt;
 </script>
 
 </body>
