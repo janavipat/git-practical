@@ -1,0 +1,3 @@
+stage file
+add conflict by stage
+
