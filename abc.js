@@ -1,6 +1,13 @@
-// program to check if a number is prime or not
 
-// take input from the user
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript For Loop</h2>
+
+<p id="demo"></p>
+
+<script>
 const number = parseInt(prompt("Enter a positive number: "));
 let isPrime = true;
 
@@ -31,3 +38,8 @@ else if (number > 1) {
 else {
     console.log("The number is not a prime number.");
 }
+</script>
+
+</body>
+</html>
+
